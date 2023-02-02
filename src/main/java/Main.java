@@ -36,7 +36,7 @@ public class Main {
 
     //    Составить алгоритм: на входе есть числовой массив, необходимо вывести элементы массива кратные 3
     public static void taskThree(int[] arr) {
-        System.out.println("Массив, поступивший на входа: " + Arrays.toString(arr));
+        System.out.println("Массив, поступивший на вход: " + Arrays.toString(arr));
         System.out.print("Элементы, кратные '3': ");
         for (Integer number : arr) {
             if (number % 3 == 0) {
